@@ -11,8 +11,8 @@
   },
   
   "engines" : {
-    "npm":>=5.0.0",
-    "node":">=16.0.0"
+    "npm":>=1.13.x",
+    "node":">=0.10.x"
   },
   
   "devDependencies": {

@@ -1,0 +1,168 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0
+  padding:0
+  background-image: url(https://i.imgur.com/iUEVQjq.jpg);
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #005ca9;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  box-shadow: none;
+  border-radius: 7px;
+}
+
+button:hover,
+button:active,
+button:focus {
+  outline: 0;
+  background: #286fb4;
+  border: 0;
+  color: #fff;
+  box-shadow: none;
+}
+
+span.id{
+  padding: 10px;
+  text-transform: bold;
+}
+
+span.question{
+  padding: 10px;
+  text-transform: bold;
+  font-weight: 10px;
+}
+
+legend.result {
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: bold;
+  color: #005ca9;
+  font-family: sans-serif;
+}
+
+
+legend.pergunta {
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: bold;
+  color: #005ca9;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #005ca9;
+  text-align: center;
+  font-size: 50px;
+}
+
+fieldset.result {
+  border: none;
+  padding: 30x 30x 30x 30px;
+  font-weight: 30;
+  font-family: sans-serif;
+  color: #555;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0 0 15px #AAAAAA;
+}
+
+fieldset.chekbox{
+  border: none;
+}
+
+label.result{
+  text-size-adjust:10px;
+}
+
+
+fieldset.square {
+  border: none;
+  padding: 30x 30x 30x 30px;
+  font-weight: 30;
+  font-family: sans-serif;
+  color: #555;
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0 0 15px #AAAAAA;
+}
+
+fieldset.radio{
+  border:none;
+}
+
+label.radio{
+  text-size-adjust: 10px;
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #005ca9;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+fieldset legend {
+  background-color: white;
+}
+
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+th{
+  text-align: center;
+}
+
+span {
+}
+
+label {
+}
+
+table {
+}
+
+
